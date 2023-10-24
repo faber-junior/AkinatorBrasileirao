@@ -252,7 +252,6 @@ public class Akinator
                         break;
                     case 'b':
                         times_possiveis.removeIf(time -> time.getNome().equals("Palmeiras"));
-                        times_possiveis.removeIf(time -> time.getNome().equals("Cuiabá"));
                         times_possiveis.removeIf(time -> time.getNome().equals("Goiás"));
                         times_possiveis.removeIf(time -> time.getNome().equals("Coritiba"));
                         times_possiveis.removeIf(time -> time.getNome().equals("América-MG"));
@@ -277,11 +276,11 @@ public class Akinator
                         break;
                     case 'e':
                         times_possiveis.removeIf(time -> time.getNome().equals("Palmeiras"));
-                        times_possiveis.removeIf(time -> time.getNome().equals("Cuiabá"));
                         times_possiveis.removeIf(time -> time.getNome().equals("Goiás"));
                         times_possiveis.removeIf(time -> time.getNome().equals("Coritiba"));
                         times_possiveis.removeIf(time -> time.getNome().equals("América-MG"));
                         times_possiveis.removeIf(time -> time.getNome().equals("Fluminense"));
+                        times_possiveis.removeIf(time -> time.getNome().equals("Cuiabá"));
                         break;
                     default:
                         break;
@@ -408,12 +407,12 @@ public class Akinator
                         times_possiveis.removeIf(time -> time.getNome().equals("Bragantino"));
                         times_possiveis.removeIf(time -> time.getNome().equals("Grêmio"));
                         times_possiveis.removeIf(time -> time.getNome().equals("Palmeiras"));
+                        times_possiveis.removeIf(time -> time.getNome().equals("Cuiabá"));
                         times_possiveis.removeIf(time -> time.getNome().equals("Flamengo"));
                         times_possiveis.removeIf(time -> time.getNome().equals("Fortaleza"));
                         times_possiveis.removeIf(time -> time.getNome().equals("Fluminense"));
                         times_possiveis.removeIf(time -> time.getNome().equals("Athletico-PR"));
                         times_possiveis.removeIf(time -> time.getNome().equals("São Paulo"));
-                        times_possiveis.removeIf(time -> time.getNome().equals("Cuiabá"));
                         times_possiveis.removeIf(time -> time.getNome().equals("Internacional"));
                         times_possiveis.removeIf(time -> time.getNome().equals("Cruzeiro"));
                         times_possiveis.removeIf(time -> time.getNome().equals("Bahia"));
@@ -438,7 +437,6 @@ public class Akinator
                         times_possiveis.removeIf(time -> time.getNome().equals("Fortaleza"));
                         times_possiveis.removeIf(time -> time.getNome().equals("Fluminense"));
                         times_possiveis.removeIf(time -> time.getNome().equals("Athletico-PR"));
-                        times_possiveis.removeIf(time -> time.getNome().equals("Cuiabá"));
                         times_possiveis.removeIf(time -> time.getNome().equals("Internacional"));
                         times_possiveis.removeIf(time -> time.getNome().equals("Cruzeiro"));
                         times_possiveis.removeIf(time -> time.getNome().equals("Bahia"));
@@ -469,9 +467,7 @@ public class Akinator
                         times_possiveis.removeIf(time -> time.getNome().equals("Flamengo"));
                         times_possiveis.removeIf(time -> time.getNome().equals("Athletico-PR"));
                         times_possiveis.removeIf(time -> time.getNome().equals("Atlético-MG"));
-                        times_possiveis.removeIf(time -> time.getNome().equals("Cuiabá"));
                         times_possiveis.removeIf(time -> time.getNome().equals("Internacional"));
-                        times_possiveis.removeIf(time -> time.getNome().equals("Corinthians"));
                         times_possiveis.removeIf(time -> time.getNome().equals("Santos"));
                         times_possiveis.removeIf(time -> time.getNome().equals("Cruzeiro"));
                         times_possiveis.removeIf(time -> time.getNome().equals("Bahia"));
@@ -496,7 +492,6 @@ public class Akinator
                         times_possiveis.removeIf(time -> time.getNome().equals("Fortaleza"));
                         times_possiveis.removeIf(time -> time.getNome().equals("Fluminense"));
                         times_possiveis.removeIf(time -> time.getNome().equals("Athletico-PR"));
-                        times_possiveis.removeIf(time -> time.getNome().equals("Cuiabá"));
                         times_possiveis.removeIf(time -> time.getNome().equals("Internacional"));
                         times_possiveis.removeIf(time -> time.getNome().equals("Cruzeiro"));
                         times_possiveis.removeIf(time -> time.getNome().equals("Bahia"));
@@ -507,6 +502,7 @@ public class Akinator
                     case 'e':
                         times_possiveis.removeIf(time -> time.getNome().equals("Botafogo"));
                         times_possiveis.removeIf(time -> time.getNome().equals("Atlético-MG"));
+                        times_possiveis.removeIf(time -> time.getNome().equals("Cuiabá"));
                         times_possiveis.removeIf(time -> time.getNome().equals("Corinthians"));
                         times_possiveis.removeIf(time -> time.getNome().equals("Vasco da Gama"));
                         times_possiveis.removeIf(time -> time.getNome().equals("Santos"));
